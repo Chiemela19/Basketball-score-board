@@ -1,8 +1,6 @@
 <<<<<<< HEAD
 # Built a basket ball score board
 =======
-# Built a basketball score board
->>>>>>> 40f01e73b4d3531b7c79431ce686ded2609b8023
 
 Quick start:
 
