@@ -1,0 +1,111 @@
+body {
+/* empty-state */
+    position: relative;
+    margin: 0 auto;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+    align-items: center;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+    }
+
+
+#home {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+    text-align: center;
+    color: #EEEEEE;
+}
+
+#home-num {
+   margin-top: 30px;
+    margin-bottom: 10px;
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    color: #F94F6D;
+}
+    
+#guest {
+    margin-left: 200px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+    text-align: center;
+    color: #EEEEEE;
+}
+
+#guest-num {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    color: #F94F6D;
+}
+
+.home-buttons {
+    margin: 0 auto;
+    margin-top: 57px;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1B244A;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#reset-game {
+    background-color: #1B244A;
+    color: #9AABD8;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.guest-buttons {
+    margin: 0;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1B244A;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+

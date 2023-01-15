@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!--Begining of class container-->
+      <div class="combined1">
+        <!--Begining of class combined1-->
+        <h3 id="home">HOME</h3>
+        <h2 id="home-num">0</h2>
+
+        <div class="home-buttons">
+          <button id="button-btn" onclick="homeScore1()">+1</button>
+          <button id="button-btn" onclick="homeScore2()">+2</button>
+          <button id="button-btn" onclick="homeScore3()">+3</button>
+        </div>
+      </div>
+      <!--end of home-class combined-->
+
+      <div class="combined2">
+        <!--Begining of class combined2-->
+        <h3 id="guest">GUEST</h3>
+        <h2 id="guest-num">0</h2>
+
+        <!-game reset button->
+        <button id="reset-game" onclick="resetGame()">Reset Game</button>
+
+        <div class="guest-buttons">
+          <button id="button-btn" onclick="guestScore1()">+1</button>
+          <button id="button-btn" onclick="guestScore2()">+2</button>
+          <button id="button-btn" onclick="guestScore3()">+3</button>
+        </div>
+      </div>
+      <!--end of class combined2-->
+    </div>
+    <!--end of class container-->
+    <script src="index.js"></script>
+  </body>
+</html>
